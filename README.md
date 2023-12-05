@@ -8,8 +8,6 @@ This document outlines the requirements for the development of a Real Estate Lis
 1.2 Scope of Development Project
 The Real Estate Listings System provides a comprehensive platform for real estate agents to post property listings and for clients to inquire about properties. Key features include agent profile management, property listing submissions, and detailed property information with image galleries.
 
- User Classes and Characteristics
-
 User Classes and Responsibilities
 
 Administrator
