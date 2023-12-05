@@ -10,30 +10,40 @@ The Real Estate Listings System provides a comprehensive platform for real estat
 
  User Classes and Characteristics
 
-2.1 User Classes
+User Classes and Responsibilities
 
-Real Estate Agents:
+Administrator
 
-- Post property listings.
-- Manage agent profiles and contact information.
-- Respond to client inquiries.
+Responsibilities:
+- Manage user accounts and permissions.
+- Configure system settings and preferences.
+- Monitor system activities and generate reports.
+- Perform system maintenance and updates.
 
-Clients:
+Real Estate Agent
 
-- Inquire about properties.
-- View property details and image galleries.
+Responsibilities:
+- List and manage available houses and lands.
+- Update property details, prices, and availability.
+- Communicate with potential buyers or renters.
+- Track and manage property inquiries and transactions.
 
- 2.2 Characteristics
+Buyer/Renter
 
-Real Estate Agents:
+Responsibilities:
+- Search and browse available houses and lands.
+- View property details, images, and specifications.
+- Express interest, submit inquiries, or schedule visits.
+- Manage personal preferences and saved searches.
 
-- Authorized access to post and manage property listings.
-- Secure access to personal profiles and contact information.
-- Ability to view and respond to client inquiries.
-Clients:
+Property Owner
 
-- Ability to submit property inquiries.
-- Access to property details and image galleries.
+ Responsibilities:
+- List properties for sale or rent.
+- Update property information and pricing.
+- Communicate with potential buyers or renters.
+- Track and manage property transactions.
+
 
 Operating Environment
  2.3 Hardware Requirements
@@ -69,30 +79,42 @@ Assumptions and Dependencies
   - Integration with image hosting services for property image galleries.
 - **Authentication Services:**
   - Dependency on a secure authentication system to manage user access.
+Functionalities
 
-How to Use
+3. Agent Profiles and Contact Information
 
-3.1 Installation
+3.1.1 Agent Registration
 
-1. Set up the server infrastructure.
-2. Install the required database management system.
-3. Deploy the web-based platform accessible through browsers.
+- Agents can create profiles with necessary information.
+- Mandatory fields include name, contact details, and agency information.
 
-3.2 Configuration
+3.1.2 Agent Authentication
 
-1. Configure user authentication and authorization mechanisms.
-2. Integrate third-party APIs for mapping services and image hosting.
+- Secure login for registered agents.
 
-3.3 Usage
+3.1.3 Profile Management
 
-Real Estate Agents:
+- Agents can update their profiles, including contact information.
 
-- Log in to the system.
-- Post property listings.
-- Manage profiles and respond to client inquiries.
+3. Property Listing and Inquiry Submissions
 
-Clients:
+3.2.1 Listing Submission
 
-- Access the platform through browsers.
-- Inquire about properties and view details.
+- Agents can submit property listings with relevant details.
+- Mandatory fields include property type, location, price, and images.
 
+3.2.2 Inquiry Submission
+
+- Clients can inquire about properties.
+- Inquiries include client contact information and specific property details.
+3. Property Details and Image Galleries
+  
+3.3.1 Property Details
+
+- Comprehensive forms for agents to input detailed property information.
+- Fields for bedrooms, bathrooms, square footage, amenities, etc.
+
+3.3.2 Image Galleries
+
+- Agents can upload multiple images for each property.
+- Image gallery for clients to view property visuals.
